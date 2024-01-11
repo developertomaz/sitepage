@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/estilo.css">
+    <title>devtomaz</title>
+   
+</head>
+<body> 
+
+    <header>
+
+
+ <h1 id="txt">Hi I'm Tomaz
+      android developer!
+      
+    </h1>
+    
+
+  
+     <!--AREA DO SCRIPT DAS LETRAS AUTOMATICAS-->
+
+     <script>
+        function typeWrite(elemento) {
+            const textoArray = elemento.innerHTML.split('');
+            elemento.innerHTML ='';
+            textoArray.forEach((letra, i) => {
+             setTimeout(() => elemento.innerHTML += letra, 75 * i);
+      
+            });
+        }
+
+        const titulo = document.querySelector('h1');
+        typeWrite(titulo);
+     </script>
+
+     <a id="linkbtn" href="pdf/cv.pdf" download="curriculo" target="_blank">Download CV</a>
+    </header>
+    
+   
+
+    <main>
+      
+          <h2 >Sobre mim</h2> </p>
+          <h3>Desenvolvedor Aplicativos android estou imerso no aprendizado de Kotlin e Java 
+            as principais linguagens para criação de aplicativos android. Tenho conhecimentos na criação
+            de interfaces de usuário, manipulação de dados, e intregração de APIs. Estou sempre buscando desafios
+            para construir um base sólida para minha carreira como desenvolvedor Android.
+          </h3></p>
+          <h5>Habilidades</h5></p>
+
+           <h4> Android | Kotlin | Java</h4> 
+           <h4> Construção de telas com XML</h4>
+           <h4> RecyclerView</h4>
+           <h4> Comunicação entre activities</h4>
+           <h4> Arquitetura MVC MVVM</h4>
+           <h4> Programação orientada a objetos - POO</h4>
+           <h4> Android SDK (Lifecycle, LiveData, ViewModel)</h4>
+           <h4> Room Database</h4>
+           <h4> Integração API REST</h4>
+           <h4> Git -GitHub</h4>
+          
+          
+            
+            
+            
+            
+        
+            
+       
+    </main>
+
+
+    
+
+
+
+    <footer>
+        <h6>Contatos</h6>
+        <h7>
+            <a href="https://www.linkedin.com/in/tomazedewreck/">
+                Linkedin
+            </a>
+            
+    </h7>
+       
+        <h7>
+            <a href="https://github.com/developertomaz">
+                Github
+            </a>
+         
+    </h7>
+
+         
+        <h7>
+            <a href="tomazedewreck@gmail.com">
+                Email
+            </a>
+        </h7>
+    
+<a href="https://api.whatsapp.com/send?phone=5547992289199&text=Texto%20aqui"
+    target="_blank"
+    style="position:fixed;bottom:20px;right:30px;">
+    <svg enable-background="new 0 0 512 512" width="45" height="45" version="1.1" viewBox="0 0 512 512" xml:space="preserve" xmlns="http://www.w3.org/2000/svg"><path d="M256.064,0h-0.128l0,0C114.784,0,0,114.816,0,256c0,56,18.048,107.904,48.736,150.048l-31.904,95.104  l98.4-31.456C155.712,496.512,204,512,256.064,512C397.216,512,512,397.152,512,256S397.216,0,256.064,0z" fill="#4CAF50"/><path d="m405.02 361.5c-6.176 17.44-30.688 31.904-50.24 36.128-13.376 2.848-30.848 5.12-89.664-19.264-75.232-31.168-123.68-107.62-127.46-112.58-3.616-4.96-30.4-40.48-30.4-77.216s18.656-54.624 26.176-62.304c6.176-6.304 16.384-9.184 26.176-9.184 3.168 0 6.016 0.16 8.576 0.288 7.52 0.32 11.296 0.768 16.256 12.64 6.176 14.88 21.216 51.616 23.008 55.392 1.824 3.776 3.648 8.896 1.088 13.856-2.4 5.12-4.512 7.392-8.288 11.744s-7.36 7.68-11.136 12.352c-3.456 4.064-7.36 8.416-3.008 15.936 4.352 7.36 19.392 31.904 41.536 51.616 28.576 25.44 51.744 33.568 60.032 37.024 6.176 2.56 13.536 1.952 18.048-2.848 5.728-6.176 12.8-16.416 20-26.496 5.12-7.232 11.584-8.128 18.368-5.568 6.912 2.4 43.488 20.48 51.008 24.224 7.52 3.776 12.48 5.568 14.304 8.736 1.792 3.168 1.792 18.048-4.384 35.52z" fill="#FAFAFA"/></svg>
+</a>
+        <br>
+       
+       
+        <h3 style="margin-top: 130px;opacity: 0.4;;">&copy developertomaz</h3>
+    </footer>
+</body>
+</html>
